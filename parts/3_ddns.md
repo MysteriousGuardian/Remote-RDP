@@ -7,11 +7,21 @@ To register a DDNS, I need to first find a provider that allows me to create a d
 <img src="../assets/bild1.png" width=500> 
 
 
+
 Overwhelming with options, I only need "DDNS Services". By pressing the option, it presents nothing in the table since I have no DDNS set up. By adding a new one, I will be able to add a a new domainname. Dynu only allows domainnames connected to a subdomain for free users. In this case, it presents no issues to the project but I will need to note down the domainname for router configurations later on.
 
 <img src="../assets/bild2.png" width=500>
 
 
+
 After entering my desired domainname, the DDNS service will create a new domain assigned with my IP address automatically, which saves a lot of time. After pressing save, the DDNS will be configured and the Dynu part of this project will be done.
 
 <img src="../assets/bild3.png" width=500>
+
+
+
+To verify that the DDNS has been created, I can simply ping the name of the domain by using command prompt. In this case, it has been successfully created.
+
+
+
+But we aren't done yet. The domainname has been configured with just my IP, but what happens if the IP address changes? Well, that is where the router comes in play. The router allows me to configure DDNS to dynamically change my DDNS IP the same time as when the router changes it's IP. 
