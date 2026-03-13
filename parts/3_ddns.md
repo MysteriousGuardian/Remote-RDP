@@ -26,4 +26,4 @@ To verify that the DDNS has been created, I can simply ping the name of the doma
 
 But we aren't done yet. The domainname has been configured with just my IP, but what happens if the IP address changes dynamically? Well, that is where the router comes in play. The router has a feature that allows me to configure DDNS to dynamically change my configured domain IP the same time as when the router changes it's IP. I will go over the router configuration on a later part.
 
-Next part: [WireGuard Server Configuration](5_wireguard-configuration)
+Next part: [WireGuard Server](5_wireguard-server.md)
