@@ -10,3 +10,8 @@ To register a DDNS, I need to first find a provider that allows me to create a d
 Overwhelming with options, I only need "DDNS Services". By pressing the option, it presents nothing in the table since I have no DDNS set up. By adding a new one, I will be able to add a a new domainname. Dynu only allows domainnames connected to a subdomain for free users. In this case, it presents no issues to the project but I will need to note down the domainname for router configurations later on.
 
 <img src="../assets/bild2.png" width=500>
+
+
+After entering my desired domainname, the DDNS service will create a new domain assigned with my IP address automatically, which saves a lot of time. After pressing save, the DDNS will be configured and the Dynu part of this project will be done.
+
+<img src="../assets/bild3.png" width=500>
