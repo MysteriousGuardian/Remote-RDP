@@ -21,7 +21,7 @@ My WireGuard server was created with these VM specifications:
 
 A user was created with the name "wgserver" and after going through with the installation, updates were done. When going through with upgrade, I noticed that my VM does not have access to my network. At that point, I did some research to find out that I needed to configure an external switch to my Hyper-V.
 
-An external switch lets me configure my network card to act like a switch and route VM traffic to my router. In simpler terms, I create an imaginary switch that connects my VM to my home network. A lot of errors happened during the process, which I will review on a later part. I managed to fix all the problems and begin my WireGuard server setup.
+An external switch lets me configure my network card to act like a switch and route VM traffic to my router. In simpler terms, I create an imaginary switch that connects my VM to my home network. A lot of errors happened during the process, which I will review on a later part. I managed to fix all the problems and begin my WireGuard project.
 
 
 
