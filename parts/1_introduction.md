@@ -7,4 +7,4 @@ This is a hands-on project where I’m building my own setup using WireGuard, le
 The goal is simply to learn by doing — setting things up, testing what works, breaking things, and improving along the way. By utilizing the equipment I had at home, it gave me a visual on how flexible it is to host a similar project. 
 
 <br>
-Next part: [Setup](2_setup.md)
+Next part: [Setup] (2_setup.md)
