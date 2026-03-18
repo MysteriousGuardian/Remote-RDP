@@ -16,6 +16,6 @@ Remote RDP is seperated into these parts:
 | [7. Testing](parts/7_testing.md) | Test connectivity and verify VPN |
 
 
-
+<br>
 
 // MysteriousGuardian (David Tekin)
