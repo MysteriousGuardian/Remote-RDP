@@ -14,6 +14,7 @@ Remote RDP is seperated into these parts:
 | [5. Configuration Files](parts/5_configuration-files.md) | Client and server config file examples |
 | [6. Router Configuration](parts/6_router-configuration.md) | Router and portforwarding for WireGuard |
 | [7. Testing](parts/7_testing.md) | Test connectivity and verify VPN |
+| [8. Debug](parts/8_debug.md) | Debugging all the issues that occured |
 
 
 <br>
