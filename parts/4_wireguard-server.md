@@ -54,4 +54,4 @@ sudo sysctl -p
 ```
 I will be adding more, since part 5 will require more config from the server.
 
-Next
+Next part: [Configuration Files](5_configuration-files.md)
