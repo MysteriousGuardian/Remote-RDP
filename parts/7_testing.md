@@ -14,3 +14,7 @@ Anyhow, I simply opened up RDP to connect to home PCs virtual IP, which is 192.1
 
 <img src="../assets/bild7-1.png">
 
+This marks the completion of my project!
+
+Next part: [Debug](8_debug.md)
+
