@@ -26,4 +26,4 @@ To try to solve this issue, I created three possible causes and interrogated eac
 
 *However it still aroused suspicion, since I didn't have any problems since before fixing my WireGuard. Maybe the Hyper-V switch created a faulty switch? I deleted my old switch and created a fresh one with correct settings. Still no victory.*
 
-**Firewall (Home PC)**
+**Firewall (Home PC)**: *I had another thought that my firewall could have blocked communications from server to my home PC, but I realized that it was impossible, since both are in the same network (HomePC had 192.168.1.50 and Server had 192.168.1.49). I didn't want to take risks, so I turned off home PC firewall and tried to send a ping. No positive results.*
