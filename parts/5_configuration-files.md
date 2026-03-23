@@ -19,7 +19,7 @@ PersistentKeepalive = 25   <Sends keep alive packets to allow NAT to work as usu
 
 (At that point, I got so many errors when testing connectivity to my home PC, so I ended up installing another WireGuard VPN to my home PC and created another configuration with the same template. I will go a bit in depth later on.)
 
-When the configuration files have been configurated, it is time to go back to the WireGuard Server VM and add another small addon for each peer. Simply nano into the wg0.conf file and write this 
+When the configuration files have been configurated, it is time to go back to the WireGuard Server VM and add another small addon for each client connected to WireGuard. Simply nano into the wg0.conf file and write this:
 
 ```
 [Peer]
