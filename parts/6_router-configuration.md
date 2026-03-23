@@ -1,8 +1,6 @@
 # 6. Router Configuration
 
-Now we are the last part of this project before testing, it is time to configure our home router.
-
-I will split this part in two different parts, since we are only configuring two different settings on the router.
+Now we are the last part of this project before testing, it is time to configure our home router. I will split this part in two different parts, since we are only configuring two different settings on the router.
 
 
 # DDNS
