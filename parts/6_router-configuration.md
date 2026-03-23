@@ -35,6 +35,10 @@ By saving and applying all my settings, the DDNS is officially configured on my 
 
 # Port Forwarding
 
+We need to forward the DDNS port 51820 so that all VPN connections will be forwarded to our WireGuard Server. Simply put, we make our DDNS with the port 51820 act as our front door path, while the WireGuard Server is our front door. By configuring these settings, the portforwarding part of the router configuration was completed:
 
+<img src="../assets/bild6-1.png">
 
+*A thing to note: WireGuard uses the UDP protocol, not TCP. By mistake, I chose TCP and the forwarding part stopped working.*
 
+Next Part: [Testing](7_testing.md)
