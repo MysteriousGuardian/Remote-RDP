@@ -52,6 +52,10 @@ However we have to enable IP forwarding. This setting allows us to communicate b
 echo "net.ipv4.ip_forward=1" | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 ```
-I will be adding more, since part 5 will require more config from the server.
 
+To start WireGuard, I simply entered this command to run the configuration that I have created:
+
+```
+sudo wg-quick up wg0
+```
 Next part: [Configuration Files](5_configuration-files.md)
