@@ -41,4 +41,4 @@ We need to forward the DDNS port 51820 so that all VPN connections will be forwa
 
 *A thing to note: WireGuard uses the UDP protocol, not TCP. By mistake, I chose TCP and the forwarding part stopped working.*
 
-Next Part: [Testing](7_testing.md)
+Next part: [Testing](7_testing.md)
