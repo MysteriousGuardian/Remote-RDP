@@ -22,6 +22,8 @@ To try to solve this issue, I created three possible causes and interrogated eac
 
 *By doing tests and few restorations, it still couldn't communicate. I surrendered to dive deeper on the routing part, since everything did look right to me. I dove down to cause 2.*
 
-**Hyper-V**
+**Hyper-V**: *When doing the original setup, my network was acting funny after creating the external switch. I did not think much of it, since I thought it was expected behavior. After the network came back up on my home PC, nothing worked. I couldn't access the internet, my pings were useless. I fixed it, by turning off the IPv4 feature on my switch.*
+
+*However it still aroused suspicion, since I didn't have any problems since before fixing my WireGuard. Maybe the Hyper-V switch created a faulty switch? I deleted my old switch and created a fresh one with correct settings. Still no victory.*
 
 **Firewall (Home PC)**
