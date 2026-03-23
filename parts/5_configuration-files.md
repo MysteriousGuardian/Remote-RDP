@@ -29,5 +29,5 @@ AllowedIPs = 192.168.2.2/32   <The IP address that the client will get. Subnet 3
 
 Make sure to include both the client's and the home PC's configuration. At that point, the configuration files are done!
 
-Next Part: [Router Configuration](/parts/6_router-configuration.md)
+Next part: [Router Configuration](/parts/6_router-configuration.md)
 
