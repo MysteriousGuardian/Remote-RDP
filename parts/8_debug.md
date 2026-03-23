@@ -27,3 +27,13 @@ To try to solve this issue, I created three possible causes and interrogated eac
 *However it still aroused suspicion, since I didn't have any problems since before fixing my WireGuard. Maybe the Hyper-V switch created a faulty switch? I deleted my old switch and created a fresh one with correct settings. Still no victory.*
 
 **Firewall (Home PC)**: *I had another thought that my firewall could have blocked communications from server to my home PC, but I realized that it was impossible, since both are in the same network (HomePC had 192.168.1.50 and Server had 192.168.1.49). I didn't want to take risks, so I turned off home PC firewall and tried to send a ping. No positive results.*
+
+I had to do a workaround, in which led me to create another peer user. This new peer user is for my home PC to connect with when I go to school for example. Before going out, I turn on VPN and wait 5 seconds for handshake. It was functional, but it definitely caused a workaround of my entire project goal.
+
+
+
+# Reflection
+
+Project Remote RDP taught me a lot of valuable skills. It taught me lots of technical skills, such as routing, WireGuard setup, networking and hypervisor management. However it did teach me lots of mental skills, such as problem solving, planning & designing and logical thinking. Would I do something like this again? Probably not for a while. But was it worth it? Absolutely!
+
+
