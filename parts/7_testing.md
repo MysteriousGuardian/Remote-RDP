@@ -12,5 +12,5 @@ I wanted to try pinging my home PC from my client, but I noticed that my network
 
 Anyhow, I simply opened up RDP to connect to home PCs virtual IP, which is 192.168.2.2. By authenticating myself and accepting the insecure certificate, I managed to open up a remote session on my actual home PC, while not being on my own network: 
 
-
+<img src="../assets/bild7-1.png">
 
