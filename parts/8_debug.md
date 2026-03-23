@@ -2,7 +2,7 @@
 
 Here are the errors and issues that I've received during my project:
 
-# Issue 1: WireGuard handshake not Working
+# Issue 1: WireGuard handshake not working
 
 The client couldn't connect to the server at all. Not even being able to ping the server. By doing further research, I found out that my portforwarder was on TCP, when it should have been UDP. A simple fix in the router settings made the handshake work like a charm!
 
