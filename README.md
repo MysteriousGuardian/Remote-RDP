@@ -1,7 +1,7 @@
 # Remote RDP
 The goal of this project is to set up a personal WireGuard VPN lab to explore secure remote access, network segmentation, and dynamic connectivity for a home network environment.
 
-This lab focuses on creating a practical and reproducible setup for learning purposes, combining WireGuard with Dynamic DNS (DDNS) to handle changing public IP addresses. Security aspects will be included at the end to provide additional hardening to the lab infrastructure.
+This lab focuses on creating a practical and reproducible setup for learning purposes, combining WireGuard with Dynamic DNS (DDNS) to handle changing public IP addresses. Reflections about this project will be explained in the last part.
 
 Remote RDP is seperated into these parts:
 
