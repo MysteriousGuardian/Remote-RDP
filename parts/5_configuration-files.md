@@ -1,6 +1,6 @@
 # 5. Configuration Files
 
-The same procedure was done as part 4, however the client comes into play. In this project, my client is a Windows 10 laptop. To configure the client side, I will need to install WireGuard VPN. From there, I can create and use my config file. By creating a new tunnel and following this template, the client side of configurations should be done: 
+The same procedure was done as part 4, however the client comes into play. In this project, my client is a Windows 10 laptop. To configure the client side, I will need to install WireGuard VPN on Windows. From there, I can create and use my config file. By creating a new tunnel and following this template, the client side of configurations should be done: 
 
 ```
 [Interface]
@@ -29,5 +29,5 @@ AllowedIPs = 192.168.2.2/32   <The IP address that the client will get. Subnet 3
 
 Make sure to include both the client's and the home PC's configuration. At that point, the configuration files are done!
 
-Next Part: [Router Configurations](/parts/6_router-configuration.md)
+Next Part: [Router Configuration](/parts/6_router-configuration.md)
 
